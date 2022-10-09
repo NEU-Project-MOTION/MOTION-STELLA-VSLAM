@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target camera_info_manager[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/camera_info_manager.dir/src/camera_info_manager.cpp.o[0m
-[100%] [32m[1mLinking CXX shared library libcamera_info_manager.so[0m
-[100%] Built target camera_info_manager

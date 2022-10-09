@@ -1,1 +1,0 @@
-stella_vslam;eigen;libgoogle-glog-dev;image_transport;cv_bridge;geometry_msgs;nav_msgs;sensor_msgs;message_filters;yaml-cpp;tf2;tf2_eigen;tf2_geometry_msgs;tf2_msgs;tf2_ros

@@ -1,6 +1,0 @@
--- Found ament_cmake_python: 0.9.11 (/opt/ros/foxy/share/ament_cmake_python/cmake)
--- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
--- Using PYTHON_EXECUTABLE: /usr/bin/python3
--- Configuring incomplete, errors occurred!
-See also "/home/ubuntu/ros2_ws/build/image_geometry/CMakeFiles/CMakeOutput.log".
-See also "/home/ubuntu/ros2_ws/build/image_geometry/CMakeFiles/CMakeError.log".

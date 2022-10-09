@@ -1,3 +1,0 @@
-[0.019s] Invoking command in '/home/ubuntu/ros2_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/camera_calibration_parsers:/opt/ros/foxy LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/camera_info_manager -- -j16 -l16
-[0.065s] [ 50%] [32m[1mLinking CXX shared library libcamera_info_manager.so[0m
-[0.168s] [100%] Built target camera_info_manager
