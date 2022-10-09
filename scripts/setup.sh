@@ -2,7 +2,6 @@
 ## Leave Repo
 cd ../
 mkdir stella_slam_installations
-$working_dir = pwd
 
 #VSLAM Install
 git clone https://github.com/stella-cv/stella_vslam.git
@@ -39,7 +38,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 apt install -y nodejs
 
 #Eigen Install
-cd stella_slam_installations
+cd ../stella_slam_installations
 wget -q https://gitlab.com/libeigen/eigen/-/archive/3.3.7/eigen-3.3.7.tar.bz2
 tar xf eigen-3.3.7.tar.bz2
 rm -rf eigen-3.3.7.tar.bz2
@@ -51,8 +50,7 @@ cmake \
     ..
 make -j4
 make install
-cd $working_dir
-cd stella_slam_installations
+cd ../../
 
 # OpenCV Install
 wget -q https://github.com/opencv/opencv/archive/3.4.0.zip
@@ -76,8 +74,7 @@ cmake \
     ..
 make -j4
 make install
-cd $working_dir
-cd stella_slam_installations
+cd ../../
 
 # FBoW
 git clone https://github.com/stella-cv/FBoW.git
@@ -89,8 +86,7 @@ cmake \
     ..
 make -j4
 make install
-cd $working_dir
-cd stella_slam_installations
+cd ../../
 
 # G2O
 git clone https://github.com/RainerKuemmerle/g2o.git
@@ -110,8 +106,7 @@ cmake \
     ..
 make -j4
 make install
-cd $working_dir
-cd stella_slam_installations
+cd ../../
 
 # Pangolin Viewer
 git clone https://github.com/stevenlovegrove/Pangolin.git
@@ -124,8 +119,7 @@ cmake \
     ..
 make -j4
 make install
-cd $working_dir
-cd stella_slam_installations
+cd ../../
 
 
 # SocketViewer
@@ -141,14 +135,12 @@ cmake \
     ..
 make -j4
 make install
-cd $working_dir
-cd stella_slam_installations
+cd ../../../
 
 # Protobuf Install
 apt install -y libprotobuf-dev protobuf-compiler
 
 ## Stella Build
-cd $working_dir
 cd stella_vslam
 mkdir build && cd build
 cmake \
