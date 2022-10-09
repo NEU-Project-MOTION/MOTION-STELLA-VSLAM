@@ -1,0 +1,39 @@
+[0.020s] Invoking command in '/home/ubuntu/ros2_ws/src/build/image_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/image_tools -DUSE_PANGOLIN_VIEWER=OFF -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/install/image_tools
+[0.030s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.052s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.052s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.258s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.263s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.294s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.453s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.455s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.569s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.615s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.714s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.820s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.838s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.839s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.839s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.839s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.972s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.973s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.973s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/ros2_ws/src/image_tools/include>
+[0.973s] -- Configured cppcheck exclude dirs and/or files: 
+[0.974s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.974s] -- Configured cpplint exclude dirs and/or files: 
+[0.974s] -- Added test 'lint_cmake' to check CMake code style
+[0.975s] -- Added test 'uncrustify' to check C / C++ code style
+[0.975s] -- Configured uncrustify additional arguments: 
+[0.975s] -- Added test 'xmllint' to check XML markup files
+[0.979s] -- Configuring done
+[0.982s] CMake Error at CMakeLists.txt:21 (add_library):
+[0.982s]   Target "image_tools" links to target "rclcpp_components::component" but the
+[0.982s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.982s]   IMPORTED target, or an ALIAS target is missing?
+[0.982s] 
+[0.982s] 
+[0.993s] -- Generating done
+[0.994s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.000s] Invoked command in '/home/ubuntu/ros2_ws/src/build/image_tools' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/image_tools -DUSE_PANGOLIN_VIEWER=OFF -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/src/install/image_tools

@@ -1,0 +1,44 @@
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+-- Found camera_calibration_parsers: 2.4.0 (/home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found ament_cmake_cpplint: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.9.7 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ros2_ws/build/camera_info_manager
+[100%] Built target camera_info_manager
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/lib/libcamera_info_manager.so
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager.h
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager.hpp
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/include/camera_info_manager/visibility_control.h
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/environment/library_path.sh
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/environment/library_path.dsv
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/ament_index/resource_index/package_run_dependencies/camera_info_manager
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/ament_index/resource_index/parent_prefix_path/camera_info_manager
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/environment/path.sh
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/environment/path.dsv
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/local_setup.bash
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/local_setup.sh
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/local_setup.zsh
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/local_setup.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/package.dsv
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/ament_index/resource_index/packages/camera_info_manager
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig.cmake
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig-version.cmake
+-- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_info_manager/share/camera_info_manager/package.xml

@@ -1,0 +1,3 @@
+[submodule "stella_vslam_ros"]
+	path = stella_vslam_ros
+	url = git@github.com:stella-cv/stella_vslam_ros.git

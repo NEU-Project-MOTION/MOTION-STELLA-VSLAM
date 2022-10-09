@@ -1,0 +1,6 @@
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring incomplete, errors occurred!
+See also "/home/ubuntu/ros2_ws/build/cv_bridge/CMakeFiles/CMakeOutput.log".
+See also "/home/ubuntu/ros2_ws/build/cv_bridge/CMakeFiles/CMakeError.log".

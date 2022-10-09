@@ -1,0 +1,11 @@
+CMake Warning at src/CMakeLists.txt:12 (add_executable):
+  Cannot generate a safe runtime search path for target run_slam because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libzstd.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+
+  Some of these libraries may not be found correctly.
+
+

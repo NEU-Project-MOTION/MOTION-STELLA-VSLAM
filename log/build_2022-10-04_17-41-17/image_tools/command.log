@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/image_tools': /usr/bin/cmake /home/ubuntu/ros2_ws/src/image_tools -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/image_tools

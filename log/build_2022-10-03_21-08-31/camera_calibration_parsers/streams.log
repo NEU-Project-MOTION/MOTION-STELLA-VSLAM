@@ -1,0 +1,69 @@
+[0.028s] Invoking command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/image_common/camera_calibration_parsers -DUSE_PANGOLIN_VIEWER=OFF -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/camera_calibration_parsers
+[0.040s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.245s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.252s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.278s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.281s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.398s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.434s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.435s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.541s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.625s] -- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[0.625s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[0.628s] -- Found ament_cmake_cppcheck: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[0.629s] -- Found ament_cmake_cpplint: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[0.629s] -- Found ament_cmake_lint_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+[0.630s] -- Found ament_cmake_uncrustify: 0.9.7 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[0.631s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.695s] -- Configuring done
+[0.712s] -- Generating done
+[0.713s] CMake Warning:
+[0.713s]   Manually-specified variables were not used by the project:
+[0.713s] 
+[0.713s]     USE_PANGOLIN_VIEWER
+[0.713s] 
+[0.713s] 
+[0.713s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/camera_calibration_parsers
+[0.718s] Invoked command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/image_common/camera_calibration_parsers -DUSE_PANGOLIN_VIEWER=OFF -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/camera_calibration_parsers
+[0.720s] Invoking command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/camera_calibration_parsers -- -j16 -l16
+[0.758s] [ 28%] Built target gtest_main
+[0.758s] [ 28%] Built target gtest
+[0.765s] [ 57%] Built target camera_calibration_parsers
+[0.787s] [100%] Built target camera_calibration_parsers-parse_ini
+[0.787s] [100%] Built target convert
+[0.787s] [100%] Built target camera_calibration_parsers-parse_yml
+[0.795s] Invoked command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/camera_calibration_parsers -- -j16 -l16
+[0.819s] Invoking command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/camera_calibration_parsers
+[0.827s] -- Install configuration: ""
+[0.827s] -- Execute custom install script
+[0.828s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so
+[0.828s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert
+[0.828s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse.h
+[0.828s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse.hpp
+[0.829s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse_ini.h
+[0.829s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse_ini.hpp
+[0.829s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse_yml.h
+[0.829s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/parse_yml.hpp
+[0.829s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/visibility_control.hpp
+[0.829s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/library_path.sh
+[0.830s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/library_path.dsv
+[0.830s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/ament_index/resource_index/package_run_dependencies/camera_calibration_parsers
+[0.830s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/ament_index/resource_index/parent_prefix_path/camera_calibration_parsers
+[0.830s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.sh
+[0.830s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.dsv
+[0.831s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.sh
+[0.831s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.dsv
+[0.831s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.bash
+[0.831s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.sh
+[0.832s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.zsh
+[0.832s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.dsv
+[0.832s] -- Symlinking: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv
+[0.842s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/ament_index/resource_index/packages/camera_calibration_parsers
+[0.842s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.843s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_libraries-extras.cmake
+[0.843s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.843s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake
+[0.843s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig-version.cmake
+[0.844s] -- Up-to-date symlink: /home/ubuntu/ros2_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.xml
+[0.849s] Invoked command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/camera_calibration_parsers

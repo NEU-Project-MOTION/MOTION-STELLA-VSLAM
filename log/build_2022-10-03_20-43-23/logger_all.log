@@ -1,0 +1,345 @@
+[2.733s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF']
+[2.733s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f447a7538e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f447a7538e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f447a753e50>)
+[3.696s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.696s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.696s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.696s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.696s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.696s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.696s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros2_ws'
+[3.696s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.696s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.696s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.696s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.696s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.881s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.881s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.881s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.881s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.881s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.881s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.881s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.881s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.881s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ignore', 'ignore_ament_install']
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore'
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ignore_ament_install'
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_pkg']
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_pkg'
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['colcon_meta']
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'colcon_meta'
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['ros']
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'ros'
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['cmake', 'python']
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'cmake'
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python'
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extensions ['python_setup_py']
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common) by extension 'python_setup_py'
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ignore', 'ignore_ament_install']
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore'
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ignore_ament_install'
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_pkg']
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_pkg'
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['colcon_meta']
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'colcon_meta'
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extensions ['ros']
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_calibration_parsers) by extension 'ros'
+[3.904s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_calibration_parsers' with type 'ros.ament_cmake' and name 'camera_calibration_parsers'
+[3.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ignore', 'ignore_ament_install']
+[3.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore'
+[3.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ignore_ament_install'
+[3.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_pkg']
+[3.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_pkg'
+[3.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['colcon_meta']
+[3.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'colcon_meta'
+[3.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extensions ['ros']
+[3.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/camera_info_manager) by extension 'ros'
+[3.906s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/camera_info_manager' with type 'ros.ament_cmake' and name 'camera_info_manager'
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ignore', 'ignore_ament_install']
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore'
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ignore_ament_install'
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_pkg']
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_pkg'
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['colcon_meta']
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'colcon_meta'
+[3.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extensions ['ros']
+[3.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_common) by extension 'ros'
+[3.907s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_common' with type 'ros.ament_cmake' and name 'image_common'
+[3.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ignore', 'ignore_ament_install']
+[3.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore'
+[3.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ignore_ament_install'
+[3.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_pkg']
+[3.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_pkg'
+[3.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['colcon_meta']
+[3.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'colcon_meta'
+[3.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extensions ['ros']
+[3.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/image_transport) by extension 'ros'
+[3.909s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_common/image_transport' with type 'ros.ament_cmake' and name 'image_transport'
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extensions ['ignore', 'ignore_ament_install']
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) by extension 'ignore'
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_common/polled_camera) ignored
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_tools) by extensions ['ignore', 'ignore_ament_install']
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_tools) by extension 'ignore'
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_tools) by extension 'ignore_ament_install'
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_tools) by extensions ['colcon_pkg']
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_tools) by extension 'colcon_pkg'
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_tools) by extensions ['colcon_meta']
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_tools) by extension 'colcon_meta'
+[3.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_tools) by extensions ['ros']
+[3.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_tools) by extension 'ros'
+[3.910s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_tools' with type 'ros.ament_cmake' and name 'image_tools'
+[3.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[3.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[3.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[3.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[3.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[3.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[3.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[3.913s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[3.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[3.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[3.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[3.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[3.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[3.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[3.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[3.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[3.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[3.915s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[3.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[3.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[3.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore_ament_install'
+[3.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_pkg']
+[3.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_pkg'
+[3.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['colcon_meta']
+[3.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'colcon_meta'
+[3.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ros']
+[3.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ros'
+[3.916s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/opencv_tests' with type 'ros.ament_python' and name 'opencv_tests'
+[3.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[3.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[3.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[3.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[3.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[3.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[3.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[3.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[3.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[3.917s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[3.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.051s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.056s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 269 installed packages in /opt/ros/foxy
+[4.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.871s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'image_geometry' is in: /opt/ros/foxy
+	'image_tools' is in: /opt/ros/foxy
+	'camera_info_manager' is in: /opt/ros/foxy
+	'cv_bridge' is in: /opt/ros/foxy
+	'image_transport' is in: /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding camera_info_manager cv_bridge image_geometry image_tools image_transport
+
+This may be promoted to an error in a future release of colcon-override-check.
+[4.876s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_args' from command line to '['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF']'
+[4.876s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_target' from command line to 'None'
+[4.876s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.876s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_clean_cache' from command line to 'False'
+[4.876s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_clean_first' from command line to 'False'
+[4.876s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'cmake_force_configure' from command line to 'False'
+[4.877s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'ament_cmake_args' from command line to 'None'
+[4.877s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'catkin_cmake_args' from command line to 'None'
+[4.877s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration_parsers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.877s] DEBUG:colcon.colcon_core.verb:Building package 'camera_calibration_parsers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/camera_calibration_parsers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/camera_calibration_parsers', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/image_common/camera_calibration_parsers', 'symlink_install': True, 'test_result_base': None}
+[4.881s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to '['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF']'
+[4.881s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[4.882s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.882s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[4.882s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[4.882s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[4.882s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[4.882s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[4.882s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.882s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/cv_bridge', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/vision_opencv/cv_bridge', 'symlink_install': True, 'test_result_base': None}
+[4.885s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_args' from command line to '['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF']'
+[4.885s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target' from command line to 'None'
+[4.885s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.886s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_cache' from command line to 'False'
+[4.886s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_first' from command line to 'False'
+[4.886s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_force_configure' from command line to 'False'
+[4.886s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'ament_cmake_args' from command line to 'None'
+[4.886s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_cmake_args' from command line to 'None'
+[4.886s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.886s] DEBUG:colcon.colcon_core.verb:Building package 'image_geometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/image_geometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/image_geometry', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/vision_opencv/image_geometry', 'symlink_install': True, 'test_result_base': None}
+[4.889s] Level 5:colcon.colcon_core.verb:set package 'image_tools' build argument 'cmake_args' from command line to '['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF']'
+[4.889s] Level 5:colcon.colcon_core.verb:set package 'image_tools' build argument 'cmake_target' from command line to 'None'
+[4.889s] Level 5:colcon.colcon_core.verb:set package 'image_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.889s] Level 5:colcon.colcon_core.verb:set package 'image_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[4.889s] Level 5:colcon.colcon_core.verb:set package 'image_tools' build argument 'cmake_clean_first' from command line to 'False'
+[4.889s] Level 5:colcon.colcon_core.verb:set package 'image_tools' build argument 'cmake_force_configure' from command line to 'False'
+[4.889s] Level 5:colcon.colcon_core.verb:set package 'image_tools' build argument 'ament_cmake_args' from command line to 'None'
+[4.889s] Level 5:colcon.colcon_core.verb:set package 'image_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[4.889s] Level 5:colcon.colcon_core.verb:set package 'image_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.889s] DEBUG:colcon.colcon_core.verb:Building package 'image_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/image_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/image_tools', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/image_tools', 'symlink_install': True, 'test_result_base': None}
+[4.891s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_args' from command line to '['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF']'
+[4.892s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_target' from command line to 'None'
+[4.892s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.892s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_clean_cache' from command line to 'False'
+[4.892s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_clean_first' from command line to 'False'
+[4.892s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'cmake_force_configure' from command line to 'False'
+[4.892s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'ament_cmake_args' from command line to 'None'
+[4.892s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'catkin_cmake_args' from command line to 'None'
+[4.892s] Level 5:colcon.colcon_core.verb:set package 'image_transport' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.892s] DEBUG:colcon.colcon_core.verb:Building package 'image_transport' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/image_transport', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/image_transport', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/image_common/image_transport', 'symlink_install': True, 'test_result_base': None}
+[4.894s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_args' from command line to '['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF']'
+[4.894s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_target' from command line to 'None'
+[4.894s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.894s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[4.894s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_clean_first' from command line to 'False'
+[4.894s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'cmake_force_configure' from command line to 'False'
+[4.894s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'ament_cmake_args' from command line to 'None'
+[4.894s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[4.894s] Level 5:colcon.colcon_core.verb:set package 'camera_info_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.894s] DEBUG:colcon.colcon_core.verb:Building package 'camera_info_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/camera_info_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/camera_info_manager', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/image_common/camera_info_manager', 'symlink_install': True, 'test_result_base': None}
+[4.896s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_args' from command line to '['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF']'
+[4.896s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target' from command line to 'None'
+[4.896s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.896s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[4.896s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_clean_first' from command line to 'False'
+[4.896s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'cmake_force_configure' from command line to 'False'
+[4.896s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'ament_cmake_args' from command line to 'None'
+[4.896s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[4.896s] Level 5:colcon.colcon_core.verb:set package 'opencv_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.896s] DEBUG:colcon.colcon_core.verb:Building package 'opencv_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/opencv_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/opencv_tests', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/vision_opencv/opencv_tests', 'symlink_install': True, 'test_result_base': None}
+[4.898s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_args' from command line to '['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF']'
+[4.898s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target' from command line to 'None'
+[4.898s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.898s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[4.898s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[4.898s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[4.898s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[4.898s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[4.898s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.898s] DEBUG:colcon.colcon_core.verb:Building package 'vision_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/vision_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/vision_opencv', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/vision_opencv/vision_opencv', 'symlink_install': True, 'test_result_base': None}
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_args' from command line to '['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF']'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_target' from command line to 'None'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_clean_cache' from command line to 'False'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_clean_first' from command line to 'False'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'cmake_force_configure' from command line to 'False'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'ament_cmake_args' from command line to 'None'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'catkin_cmake_args' from command line to 'None'
+[4.900s] Level 5:colcon.colcon_core.verb:set package 'image_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.900s] DEBUG:colcon.colcon_core.verb:Building package 'image_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros2_ws/build/image_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DUSE_PANGOLIN_VIEWER=ON', '-DUSE_SOCKET_PUBLISHER=OFF'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros2_ws/install/image_common', 'merge_install': False, 'path': '/home/ubuntu/ros2_ws/src/image_common/image_common', 'symlink_install': True, 'test_result_base': None}
+[4.901s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.907s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.907s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/image_common/camera_calibration_parsers' with build type 'ament_cmake'
+[4.907s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/image_common/camera_calibration_parsers'
+[4.939s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.939s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.939s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.961s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/vision_opencv/cv_bridge' with build type 'ament_cmake'
+[4.962s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/vision_opencv/cv_bridge'
+[4.967s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.979s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/vision_opencv/image_geometry' with build type 'ament_cmake'
+[4.979s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/vision_opencv/image_geometry'
+[4.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.990s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/image_common/image_transport' with build type 'ament_cmake'
+[4.990s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/image_common/image_transport'
+[4.992s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.992s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.998s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros2_ws/src/image_tools' with build type 'ament_cmake'
+[4.998s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros2_ws/src/image_tools'
+[5.000s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.000s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/image_common/camera_calibration_parsers -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/camera_calibration_parsers
+[5.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/vision_opencv/cv_bridge -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/cv_bridge
+[5.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/vision_opencv/image_geometry -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/image_geometry
+[5.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/image_transport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/image_common/image_transport -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/image_transport
+[5.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/image_tools': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/image_tools -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/image_tools
+[15.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/vision_opencv/image_geometry -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/image_geometry
+[15.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/image_geometry': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/image_geometry -- -j16 -l16
+[17.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/image_transport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/image_common/image_transport -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/image_transport
+[17.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/image_transport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/image_transport -- -j16 -l16
+[17.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/image_common/camera_calibration_parsers -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/camera_calibration_parsers
+[17.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros2_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/camera_calibration_parsers -- -j16 -l16
+[18.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros2_ws/build/image_tools' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/image_tools -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/image_tools
+[18.535s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_tools)
+[18.931s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/image_tools' for CMake module files
+[18.933s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/image_tools' for CMake config files
+[18.938s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/image_tools/bin'
+[18.938s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/image_tools/lib/pkgconfig/image_tools.pc'
+[18.939s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/image_tools/lib/python3.8/site-packages'
+[18.940s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros2_ws/install/image_tools/bin'
+[18.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/image_tools/share/image_tools/package.ps1'
+[19.136s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros2_ws/install/image_tools/share/image_tools/package.dsv'
+[19.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/image_tools/share/image_tools/package.sh'
+[19.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/image_tools/share/image_tools/package.bash'
+[19.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros2_ws/install/image_tools/share/image_tools/package.zsh'
+[19.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros2_ws/install/image_tools/share/colcon-core/packages/image_tools)
+[32.767s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[32.767s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[32.767s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[32.767s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[32.831s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[32.831s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[32.831s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[32.845s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[32.847s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.ps1'
+[32.863s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_ps1.py'
+[32.878s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.ps1'
+[32.884s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.sh'
+[32.930s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros2_ws/install/_local_setup_util_sh.py'
+[32.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.sh'
+[32.938s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.bash'
+[32.940s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.bash'
+[32.945s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros2_ws/install/local_setup.zsh'
+[32.959s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros2_ws/install/setup.zsh'

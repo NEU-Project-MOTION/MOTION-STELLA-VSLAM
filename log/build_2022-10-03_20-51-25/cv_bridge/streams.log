@@ -1,0 +1,27 @@
+[0.026s] Invoking command in '/home/ubuntu/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/cv_bridge -- -j16 -l16
+[0.056s] [35m[1mScanning dependencies of target gtest[0m
+[0.056s] [35m[1mScanning dependencies of target cv_bridge[0m
+[0.058s] [35m[1mScanning dependencies of target gtest_main[0m
+[0.072s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.074s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.318s] [ 18%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[0.319s] [ 25%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[0.601s] [ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[0.624s] [ 31%] Built target gtest_main
+[2.343s] [ 37%] [32m[1mLinking CXX static library libgtest.a[0m
+[2.379s] [ 37%] Built target gtest
+[3.560s] [ 43%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[3.746s] [ 43%] Built target cv_bridge
+[3.753s] [35m[1mScanning dependencies of target cv_bridge_boost[0m
+[3.753s] [35m[1mScanning dependencies of target cv_bridge-utest[0m
+[3.784s] [ 68%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o[0m
+[3.784s] [ 68%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[3.784s] [ 68%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
+[3.784s] [ 68%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o[0m
+[3.784s] [ 75%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o[0m
+[4.053s] [ 87%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[4.053s] [ 87%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o[0m
+[5.330s] [ 93%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[8.255s] [ 93%] Built target cv_bridge-utest
+[9.608s] [100%] [32m[1mLinking CXX shared library boost/cv_bridge_boost.so[0m
+[9.681s] [100%] Built target cv_bridge_boost

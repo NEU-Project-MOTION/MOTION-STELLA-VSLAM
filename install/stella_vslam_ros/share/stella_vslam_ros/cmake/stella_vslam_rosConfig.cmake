@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/build/stella_vslam_ros/ament_cmake_core/stella_vslam_rosConfig.cmake

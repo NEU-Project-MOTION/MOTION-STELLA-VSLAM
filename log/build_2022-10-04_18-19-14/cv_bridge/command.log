@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/vision_opencv/cv_bridge -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/cv_bridge
+Invoked command in '/home/ubuntu/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/ros2_ws/src/vision_opencv/cv_bridge -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/cv_bridge
+Invoking command in '/home/ubuntu/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/cv_bridge -- -j16 -l16
+Invoked command in '/home/ubuntu/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/cv_bridge -- -j16 -l16
+Invoking command in '/home/ubuntu/ros2_ws/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/cv_bridge
+Invoked command in '/home/ubuntu/ros2_ws/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/cv_bridge

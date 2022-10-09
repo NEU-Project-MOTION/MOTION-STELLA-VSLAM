@@ -1,0 +1,17 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/ament_index/resource_index/package_run_dependencies/image_common
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/ament_index/resource_index/parent_prefix_path/image_common
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/image_common/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/image_common/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/image_common/environment/path.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/image_common/environment/path.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/image_common/local_setup.bash
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/image_common/local_setup.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/image_common/local_setup.zsh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/image_common/local_setup.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/image_common/package.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/ament_index/resource_index/packages/image_common
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/image_common/cmake/image_commonConfig.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/image_common/cmake/image_commonConfig-version.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_common/share/image_common/package.xml

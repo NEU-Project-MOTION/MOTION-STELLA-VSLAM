@@ -1,0 +1,79 @@
+[0.023s] Invoking command in '/home/ubuntu/ros2_ws/src/build/image_transport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/build/image_transport -- -j16 -l16
+[0.065s] [  6%] Built target gtest_main
+[0.066s] [ 13%] Built target gtest
+[0.090s] [ 40%] Built target image_transport
+[0.123s] [ 46%] Built target image_transport-camera_common
+[0.129s] [ 73%] Built target image_transport-subscriber
+[0.130s] [ 73%] Built target image_transport_plugins
+[0.130s] [ 73%] Built target list_transports
+[0.130s] [ 73%] Built target republish
+[0.131s] [ 86%] Built target image_transport-remapping
+[0.131s] [ 86%] Built target image_transport-single_subscriber_publisher
+[0.131s] [ 93%] Built target image_transport-publisher
+[0.131s] [100%] Built target image_transport-message_passing
+[0.140s] Invoked command in '/home/ubuntu/ros2_ws/src/build/image_transport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/build/image_transport -- -j16 -l16
+[0.180s] Invoking command in '/home/ubuntu/ros2_ws/src/build/image_transport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/build/image_transport
+[0.186s] -- Install configuration: ""
+[0.187s] -- Execute custom install script
+[0.187s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport//default_plugins.xml
+[0.193s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/lib/libimage_transport.so
+[0.200s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/lib/libimage_transport_plugins.so
+[0.207s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/lib/image_transport/list_transports
+[0.213s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/lib/image_transport/republish
+[0.220s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/camera_common.h
+[0.226s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/camera_common.hpp
+[0.233s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/camera_publisher.h
+[0.240s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/camera_publisher.hpp
+[0.247s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/camera_subscriber.h
+[0.255s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/camera_subscriber.hpp
+[0.369s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/exception.h
+[0.376s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/exception.hpp
+[0.383s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/image_transport.h
+[0.390s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/image_transport.hpp
+[0.397s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/loader_fwds.h
+[0.405s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/loader_fwds.hpp
+[0.412s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/publisher.h
+[0.419s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/publisher.hpp
+[0.426s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/publisher_plugin.h
+[0.433s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/publisher_plugin.hpp
+[0.440s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/raw_publisher.h
+[0.446s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/raw_publisher.hpp
+[0.453s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/raw_subscriber.h
+[0.460s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/raw_subscriber.hpp
+[0.466s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/simple_publisher_plugin.h
+[0.473s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/simple_publisher_plugin.hpp
+[0.480s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/simple_subscriber_plugin.h
+[0.486s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/simple_subscriber_plugin.hpp
+[0.495s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/single_subscriber_publisher.h
+[0.500s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/single_subscriber_publisher.hpp
+[0.510s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/subscriber.h
+[0.515s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/subscriber.hpp
+[0.522s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/subscriber_filter.h
+[0.527s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/subscriber_filter.hpp
+[0.537s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/subscriber_plugin.h
+[0.541s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/subscriber_plugin.hpp
+[0.549s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/transport_hints.h
+[0.557s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/transport_hints.hpp
+[0.560s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/include/image_transport/visibility_control.hpp
+[0.568s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/environment/library_path.sh
+[0.577s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/environment/library_path.dsv
+[0.586s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/ament_index/resource_index/package_run_dependencies/image_transport
+[0.592s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/ament_index/resource_index/parent_prefix_path/image_transport
+[0.599s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/environment/ament_prefix_path.sh
+[0.606s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/environment/ament_prefix_path.dsv
+[0.613s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/environment/path.sh
+[0.622s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/environment/path.dsv
+[0.629s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/local_setup.bash
+[0.636s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/local_setup.sh
+[0.642s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/local_setup.zsh
+[0.649s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/local_setup.dsv
+[0.656s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/package.dsv
+[0.663s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/ament_index/resource_index/packages/image_transport
+[0.669s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/ament_index/resource_index/image_transport__pluginlib__plugin/image_transport
+[0.676s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.682s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/cmake/ament_cmake_export_libraries-extras.cmake
+[0.689s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.695s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/cmake/image_transportConfig.cmake
+[0.701s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/cmake/image_transportConfig-version.cmake
+[0.708s] -- Symlinking: /home/ubuntu/ros2_ws/src/install/image_transport/share/image_transport/package.xml
+[0.719s] Invoked command in '/home/ubuntu/ros2_ws/src/build/image_transport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/ros2_ws/src/build/image_transport

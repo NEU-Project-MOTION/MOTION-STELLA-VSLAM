@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/src/image_common/camera_info_manager/include/camera_info_manager/camera_info_manager.hpp

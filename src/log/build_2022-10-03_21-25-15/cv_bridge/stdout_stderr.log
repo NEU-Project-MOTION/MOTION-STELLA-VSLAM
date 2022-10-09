@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: python 
+-- Found rcpputils: 1.3.2 (/opt/ros/foxy/share/rcpputils/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.8") 
+-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+CMake Warning at /opt/ros/foxy/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:77 (message):
+  The Python module 'pytest' was not found, pytests can not be run (e.g.  on
+  Ubuntu/Debian install the package 'python3-pytest')
+Call Stack (most recent call first):
+  test/CMakeLists.txt:29 (ament_add_pytest_test)
+
+
+CMake Warning at /opt/ros/foxy/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:77 (message):
+  The Python module 'pytest' was not found, pytests can not be run (e.g.  on
+  Ubuntu/Debian install the package 'python3-pytest')
+Call Stack (most recent call first):
+  test/CMakeLists.txt:30 (ament_add_pytest_test)
+
+
+CMake Warning at /opt/ros/foxy/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:77 (message):
+  The Python module 'pytest' was not found, pytests can not be run (e.g.  on
+  Ubuntu/Debian install the package 'python3-pytest')
+Call Stack (most recent call first):
+  test/CMakeLists.txt:31 (ament_add_pytest_test)
+
+
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    USE_PANGOLIN_VIEWER
+    USE_SOCKET_PUBLISHER
+
+
+-- Build files have been written to: /home/ubuntu/ros2_ws/src/build/cv_bridge

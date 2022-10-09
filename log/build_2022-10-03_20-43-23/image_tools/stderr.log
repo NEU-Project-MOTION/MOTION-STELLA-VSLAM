@@ -1,0 +1,14 @@
+CMake Error at CMakeLists.txt:21 (add_library):
+  Target "image_tools" links to target "rclcpp_components::component" but the
+  target was not found.  Perhaps a find_package() call is missing for an
+  IMPORTED target, or an ALIAS target is missing?
+
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    USE_PANGOLIN_VIEWER
+    USE_SOCKET_PUBLISHER
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

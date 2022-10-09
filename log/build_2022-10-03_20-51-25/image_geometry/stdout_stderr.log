@@ -1,0 +1,38 @@
+[ 18%] Built target gtest_main
+[ 36%] Built target gtest
+[ 63%] Built target image_geometry
+[ 81%] Built target image_geometry-utest-equi
+[100%] Built target image_geometry-utest
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/__init__.py
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/cameramodels.py
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/include/image_geometry/pinhole_camera_model.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/include/image_geometry/stereo_camera_model.h
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/include/image_geometry/visibility_control.hpp
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/lib/libimage_geometry.so
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/library_path.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/library_path.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/path.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/local_setup.bash
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/local_setup.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/package.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/image_geometry/share/image_geometry/package.xml
+Listing '/home/ubuntu/ros2_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry'...
+Compiling '/home/ubuntu/ros2_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/__init__.py'...
+Compiling '/home/ubuntu/ros2_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/cameramodels.py'...

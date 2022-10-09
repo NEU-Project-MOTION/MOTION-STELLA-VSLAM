@@ -1,0 +1,16 @@
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/lib/stella_vslam_ros/run_slam
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/ament_index/resource_index/package_run_dependencies/stella_vslam_ros
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/ament_index/resource_index/parent_prefix_path/stella_vslam_ros
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/environment/ament_prefix_path.sh
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/environment/ament_prefix_path.dsv
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/environment/path.sh
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/environment/path.dsv
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/local_setup.bash
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/local_setup.sh
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/local_setup.zsh
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/local_setup.dsv
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/package.dsv
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/ament_index/resource_index/packages/stella_vslam_ros
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/cmake/stella_vslam_rosConfig.cmake
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/cmake/stella_vslam_rosConfig-version.cmake
+/home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/package.xml

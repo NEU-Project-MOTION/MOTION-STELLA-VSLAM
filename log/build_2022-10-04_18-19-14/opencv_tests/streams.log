@@ -1,0 +1,19 @@
+[0.636s] Invoking command in '/home/ubuntu/ros2_ws/build/opencv_tests': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/opencv_tests/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/opencv_tests --editable --build-directory /home/ubuntu/ros2_ws/build/opencv_tests/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/opencv_tests
+[0.841s] running develop
+[0.978s] running egg_info
+[0.978s] writing opencv_tests.egg-info/PKG-INFO
+[0.978s] writing dependency_links to opencv_tests.egg-info/dependency_links.txt
+[0.978s] writing entry points to opencv_tests.egg-info/entry_points.txt
+[0.978s] writing requirements to opencv_tests.egg-info/requires.txt
+[0.978s] writing top-level names to opencv_tests.egg-info/top_level.txt
+[1.000s] reading manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[1.001s] writing manifest file 'opencv_tests.egg-info/SOURCES.txt'
+[1.024s] running build_ext
+[1.024s] Creating /home/ubuntu/ros2_ws/install/opencv_tests/lib/python3.8/site-packages/opencv-tests.egg-link (link to .)
+[1.025s] Installing broadcast script to /home/ubuntu/ros2_ws/install/opencv_tests/lib/opencv_tests
+[1.025s] Installing rosfacedetect script to /home/ubuntu/ros2_ws/install/opencv_tests/lib/opencv_tests
+[1.025s] Installing source script to /home/ubuntu/ros2_ws/install/opencv_tests/lib/opencv_tests
+[1.025s] 
+[1.025s] Installed /home/ubuntu/ros2_ws/build/opencv_tests
+[1.025s] running install_data
+[1.042s] Invoked command in '/home/ubuntu/ros2_ws/build/opencv_tests' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/ros2_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/ros2_ws/install/cv_bridge LD_LIBRARY_PATH=/home/ubuntu/ros2_ws/install/cv_bridge/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/ros2_ws/install/opencv_tests/lib/python3.8/site-packages:/home/ubuntu/ros2_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ubuntu/ros2_ws/install/opencv_tests --editable --build-directory /home/ubuntu/ros2_ws/build/opencv_tests/build --no-deps install_data --install-dir /home/ubuntu/ros2_ws/install/opencv_tests

@@ -1,0 +1,88 @@
+-- The CXX compiler identification is GNU 9.4.0
+-- The C compiler identification is GNU 9.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Build type: Release
+-- Address/Memory sanitizer: DISABLED
+-- Stack trace logger: DISABLED
+-- Google Perftools: DISABLED
+-- Architecture-aware optimization (-march=native): DISABLED
+-- Performing Test COMPILER_SUPPORTS_CXX17
+-- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX14
+-- Performing Test COMPILER_SUPPORTS_CXX14 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX11
+-- Performing Test COMPILER_SUPPORTS_CXX11 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX0X
+-- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+-- C++11 support: OK (-std=c++17)
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found cv_bridge: 3.0.6 (/home/ubuntu/ros2_ws/install/cv_bridge/share/cv_bridge/cmake)
+-- Found image_transport: 2.4.0 (/home/ubuntu/ros2_ws/install/image_transport/share/image_transport/cmake)
+-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_eigen: 0.13.13 (/opt/ros/foxy/share/tf2_eigen/cmake)
+-- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found OpenCV: /usr (found version "4.2.0") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found OpenCV: /usr (found suitable version "4.2.0", minimum required is "4.0") 
+-- Use OpenCV 4.2.0
+-- Found Eigen3: TRUE (found suitable version "3.3.7", minimum required is "3.3") 
+-- Viewer for examples: pangolin viewer
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu/ros2_ws/build/stella_vslam_ros
+[35m[1mScanning dependencies of target run_slam[0m
+[ 33%] [32mBuilding CXX object src/CMakeFiles/run_slam.dir/run_slam.cc.o[0m
+[ 66%] [32mBuilding CXX object src/CMakeFiles/run_slam.dir/stella_vslam_ros.cc.o[0m
+[100%] [32m[1mLinking CXX executable run_slam[0m
+[100%] Built target run_slam
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/lib/stella_vslam_ros/run_slam
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/ament_index/resource_index/package_run_dependencies/stella_vslam_ros
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/ament_index/resource_index/parent_prefix_path/stella_vslam_ros
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/environment/ament_prefix_path.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/environment/path.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/environment/path.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/local_setup.bash
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/local_setup.sh
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/local_setup.zsh
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/local_setup.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/package.dsv
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/ament_index/resource_index/packages/stella_vslam_ros
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/cmake/stella_vslam_rosConfig.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/cmake/stella_vslam_rosConfig-version.cmake
+-- Symlinking: /home/ubuntu/ros2_ws/install/stella_vslam_ros/share/stella_vslam_ros/package.xml

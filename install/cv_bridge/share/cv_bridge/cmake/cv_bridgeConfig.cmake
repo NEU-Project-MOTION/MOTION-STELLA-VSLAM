@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/build/cv_bridge/ament_cmake_core/cv_bridgeConfig.cmake

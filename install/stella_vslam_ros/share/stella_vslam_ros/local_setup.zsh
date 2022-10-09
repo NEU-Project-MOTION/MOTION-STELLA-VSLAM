@@ -1,0 +1,1 @@
+/home/ubuntu/ros2_ws/build/stella_vslam_ros/ament_cmake_environment_hooks/local_setup.zsh
