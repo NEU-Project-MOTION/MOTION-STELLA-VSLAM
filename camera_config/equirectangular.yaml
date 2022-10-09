@@ -13,7 +13,7 @@ Camera:
   cols: 1280
   rows: 720
 
-  color_order: "BGR"
+  color_order: "BGRA"
 
 #=====================#
 # Tracking Parameters #
