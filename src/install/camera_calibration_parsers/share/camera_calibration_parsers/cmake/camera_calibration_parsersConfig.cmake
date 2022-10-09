@@ -1,1 +1,0 @@
-/home/ubuntu/ros2_ws/src/build/camera_calibration_parsers/ament_cmake_core/camera_calibration_parsersConfig.cmake

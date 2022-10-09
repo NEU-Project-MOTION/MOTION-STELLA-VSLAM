@@ -1,7 +1,0 @@
-make[2]: *** Deleting file 'test/cv_bridge-utest'
-make[2]: *** [src/CMakeFiles/cv_bridge_boost.dir/build.make:63: src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o] Interrupt
-make[2]: *** [src/CMakeFiles/cv_bridge_boost.dir/build.make:76: src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o] Interrupt
-make[1]: *** [CMakeFiles/Makefile2:194: src/CMakeFiles/cv_bridge_boost.dir/all] Interrupt
-make[2]: *** [test/CMakeFiles/cv_bridge-utest.dir/build.make:179: test/cv_bridge-utest] Interrupt
-make[1]: *** [CMakeFiles/Makefile2:250: test/CMakeFiles/cv_bridge-utest.dir/all] Interrupt
-make: *** [Makefile:141: all] Interrupt

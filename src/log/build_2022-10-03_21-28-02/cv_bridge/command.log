@@ -1,1 +1,0 @@
-Invoking command in '/home/ubuntu/ros2_ws/src/build/cv_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/ros2_ws/src/build/cv_bridge -- -j16 -l16

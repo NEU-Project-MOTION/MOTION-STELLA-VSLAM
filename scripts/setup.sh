@@ -49,7 +49,7 @@ cmake \
     -DCMAKE_INSTALL_PREFIX=/usr/local \
     ..
 make -j4
-make install
+sudo make install
 cd ../../
 
 # OpenCV Install
@@ -73,7 +73,7 @@ cmake \
     -DWITH_OPENMP=ON \
     ..
 make -j4
-make install
+sudo make install
 cd ../../
 
 # FBoW
@@ -85,7 +85,7 @@ cmake \
     -DCMAKE_INSTALL_PREFIX=/usr/local \
     ..
 make -j4
-make install
+sudo make install
 cd ../../
 
 # G2O
@@ -105,7 +105,7 @@ cmake \
     -DG2O_USE_OPENMP=OFF \
     ..
 make -j4
-make install
+sudo make install
 cd ../../
 
 # Pangolin Viewer
@@ -118,7 +118,7 @@ cmake \
     -DCMAKE_INSTALL_PREFIX=/usr/local \
     ..
 make -j4
-make install
+sudo make install
 cd ../../
 
 
@@ -134,7 +134,7 @@ cmake \
     -DBUILD_UNIT_TESTS=OFF \
     ..
 make -j4
-make install
+sudo make install
 cd ../../../
 
 # Protobuf Install
@@ -151,7 +151,18 @@ cmake \
     -DBUILD_EXAMPLES=ON \
     ..
 make -j4
-make install
+sudo make install
+
+## Cleanup
+cd ../../
+mv stella_vslam ../
+mv stella_slam_installations ../
 
 ## ROS2 setup
+mkdir src
+cd src
+git clone -b foxy --single-branch https://github.com/ros-perception/image_common.git
+git clone -b foxy --single-branch https://github.com/ros-perception/vision_opencv.git
+git clone --recursive --branch ros2 --depth 1 https://github.com/stella-cv/stella_vslam_ros.git
+cd ../ 
 colcon build --symlink-install --cmake-args -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF

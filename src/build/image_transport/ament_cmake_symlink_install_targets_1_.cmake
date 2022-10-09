@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/ros2_ws/src/build/image_transport/list_transports" "/home/ubuntu/ros2_ws/src/build/image_transport/republish" "TARGETS" "list_transports" "republish" "RUNTIME_DESTINATION" "lib/image_transport")
