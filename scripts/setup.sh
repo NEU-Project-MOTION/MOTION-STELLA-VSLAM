@@ -135,10 +135,19 @@ cmake \
     ..
 make -j4
 sudo make install
-cd ../../../
+cd ../../
 
 # Protobuf Install
-apt install -y libprotobuf-dev protobuf-compiler
+wget -q https://github.com/google/protobuf/archive/v3.6.1.tar.gz
+tar xf v3.6.1.tar.gz
+cd protobuf-3.6.1
+./autogen.sh
+./configure \
+    --prefix=/usr/local \
+    --enable-static=no
+make -j4
+make install
+cd ../../
 
 ## Stella Build
 cd stella_vslam
