@@ -9,33 +9,33 @@ cd stella_vslam
 git submodule update -i --recursive
 
 ## Dependencies
-apt update -y
-apt upgrade -y --no-install-recommends
+sudo apt update -y
+sudo apt upgrade -y --no-install-recommends
 # basic dependencies
-apt install -y build-essential pkg-config cmake git wget curl unzip
+sudo apt install -y build-essential pkg-config cmake git wget curl unzip
 # g2o dependencies
-apt install -y libatlas-base-dev libsuitesparse-dev
+sudo apt install -y libatlas-base-dev libsuitesparse-dev
 # OpenCV dependencies
-apt install -y libgtk-3-dev
-apt install -y ffmpeg
-apt install -y libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libavresample-dev
+sudo apt install -y libgtk-3-dev
+sudo apt install -y ffmpeg
+sudo apt install -y libavcodec-dev libavformat-dev libavutil-dev libswscale-dev libavresample-dev
 # eigen dependencies
-apt install -y gfortran
+sudo apt install -y gfortran
 # backward-cpp dependencies (optional)
-apt install -y binutils-dev
+sudo apt install -y binutils-dev
 # other dependencies
-apt install -y libyaml-cpp-dev libgflags-dev sqlite3 libsqlite3-dev
+sudo apt install -y libyaml-cpp-dev libgflags-dev sqlite3 libsqlite3-dev
 
 # (if you plan on using PangolinViewer)
 # Pangolin dependencies
-apt install -y libglew-dev
+sudo apt install -y libglew-dev
 
 # (if you plan on using SocketViewer)
 # Protobuf dependencies
-apt install -y autogen autoconf libtool
+sudo apt install -y autogen autoconf libtool
 # Node.js
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-apt install -y nodejs
+sudo apt install -y nodejs
 
 #Eigen Install
 cd ../stella_slam_installations
@@ -48,7 +48,7 @@ cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr/local \
     ..
-make -j4
+sudo make -j4
 sudo make install
 cd ../../
 
@@ -72,7 +72,7 @@ cmake \
     -DWITH_FFMPEG=ON \
     -DWITH_OPENMP=ON \
     ..
-make -j4
+sudo make -j4
 sudo make install
 cd ../../
 
@@ -84,7 +84,7 @@ cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr/local \
     ..
-make -j4
+sudo make -j4
 sudo make install
 cd ../../
 
@@ -104,7 +104,7 @@ cmake \
     -DG2O_USE_OPENGL=OFF \
     -DG2O_USE_OPENMP=OFF \
     ..
-make -j4
+sudo make -j4
 sudo make install
 cd ../../
 
@@ -117,7 +117,7 @@ cmake \
     -DCMAKE_BUILD_TYPE=Release \
     -DCMAKE_INSTALL_PREFIX=/usr/local \
     ..
-make -j4
+sudo make -j4
 sudo make install
 cd ../../
 
@@ -133,7 +133,7 @@ cmake \
     -DCMAKE_INSTALL_PREFIX=/usr/local \
     -DBUILD_UNIT_TESTS=OFF \
     ..
-make -j4
+sudo make -j4
 sudo make install
 cd ../../
 
@@ -145,8 +145,8 @@ cd protobuf-3.6.1
 ./configure \
     --prefix=/usr/local \
     --enable-static=no
-make -j4
-make install
+sudo make -j4
+sudo make install
 cd ../../
 
 ## Stella Build
@@ -159,7 +159,7 @@ cmake \
     -DBUILD_TESTS=ON \
     -DBUILD_EXAMPLES=ON \
     ..
-make -j4
+sudo make -j4
 sudo make install
 
 ## Cleanup
