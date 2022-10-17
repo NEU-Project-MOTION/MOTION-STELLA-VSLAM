@@ -170,8 +170,8 @@ mv stella_slam_installations ../
 ## ROS2 setup
 mkdir src
 cd src
-git clone -b foxy --single-branch https://github.com/ros-perception/image_common.git
 git clone -b foxy --single-branch https://github.com/ros-perception/vision_opencv.git
 git clone --recursive --branch ros2 --depth 1 https://github.com/stella-cv/stella_vslam_ros.git
+git clone -b foxy --single-branch https://github.com/ros-perception/image_common.git
 cd ../ 
 colcon build --symlink-install --cmake-args -DUSE_PANGOLIN_VIEWER=ON -DUSE_SOCKET_PUBLISHER=OFF
