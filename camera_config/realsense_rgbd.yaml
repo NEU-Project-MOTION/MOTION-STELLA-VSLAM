@@ -28,7 +28,7 @@
 
 Camera:
   name: "RS_D435 RGBD"
-  setup: "monocular"
+  setup: "RGBD"
   model: "perspective"
 
   fx: 912.985107421875
