@@ -1,17 +1,27 @@
-# Equirectangular model for RICOH THETA S
+# LUMIX fisheye model for 1K setting
 
 #==============#
 # Camera Model #
 #==============#
 
 Camera:
-  name: "RICOH THETA S 960"
+  name: "LUMIX DMC-GX8 8mm fisheye 1K"
   setup: "monocular"
-  model: "equirectangular"
+  model: "fisheye"
+
+  fx: 441.730011169
+  fy: 442.520822476
+  cx: 480.35667528
+  cy: 275.490228646
+
+  k1: -3.068701296607466433e-02
+  k2: -3.343454364086094217e-03
+  k3: -2.881735840896060968e-03
+  k4: -5.917420310474077278e-04
 
   fps: 30.0
-  cols: 848
-  rows: 800
+  cols: 960
+  rows: 540
 
   color_order: "RGB"
 
@@ -21,14 +31,9 @@ Camera:
 
 Preprocessing:
   min_size: 800
-  mask_rectangles:
-    - [0.0, 1.0, 0.0, 0.1]
-    - [0.0, 1.0, 0.84, 1.0]
-    - [0.0, 0.2, 0.7, 1.0]
-    - [0.8, 1.0, 0.7, 1.0]
 
 #================#
-# ORB Parameters #
+# orb parameters #
 #================#
 
 Feature:
@@ -38,21 +43,19 @@ Feature:
   ini_fast_threshold: 20
   min_fast_threshold: 7
 
+#========================#
+# Initializer Parameters #
+#========================#
+
+Initializer:
+  scaling_factor: 5.0
+
 #====================#
 # Mapping Parameters #
 #====================#
 
 Mapping:
   baseline_dist_thr_ratio: 0.02
-  redundant_obs_ratio_thr: 0.95
+  redundant_obs_ratio_thr: 0.9
   num_covisibilities_for_landmark_generation: 20
   num_covisibilities_for_landmark_fusion: 20
-
-#=========================#
-# LoopDetector Parameters #
-#=========================#
-
-LoopDetector:
-  enabled: true
-  reject_by_graph_distance: true
-  min_distance_on_graph: 50
