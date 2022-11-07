@@ -6,4 +6,7 @@
 	url = git@github.com:ros-perception/image_common.git
 [submodule "src/vision_opencv"]
 	path = src/vision_opencv
-	url = git@github.com:ros-perception/vision_opencv.git
+	url = https://github.com/ros-perception/vision_opencv.git
+[submodule "src/stella_vslam_ros"]
+	path = src/stella_vslam_ros
+	url = https://github.com/stella-cv/stella_vslam_ros.git

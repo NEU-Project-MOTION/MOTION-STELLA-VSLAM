@@ -1,0 +1,85 @@
+# Based off of https://github.com/stella-cv/stella_vslam_ros/issues/37
+# Parameters documentation: https://stella-cv.readthedocs.io/en/latest/parameters.html
+# Camera info topic meanings: http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/CameraInfo.html
+
+# Default color camer info message from realsense:
+# height: 720
+# width: 1280
+# distortion_model: plumb_bob
+# d:
+# - <all zeros>         (they give us k1, k2, t1, t2, k3 (all zero))
+# k: 
+# - 912.985107421875    (fx) 
+# - 0.0
+# - 641.859619140625    (cx)
+# - 0.0
+# - 911.439453125       (fy)
+# - 351.2411193847656   (cy)
+# - 0.0
+# - 0.0
+# - 1.0
+# r:
+# - <Identity rotation matrix>
+# p:                    (parameters for non monocular stuff)
+# - <Repetative info>
+
+
+Camera:
+  name: "RS_D435 RGBD"
+  setup: "RGBD"
+  model: "perspective"
+
+  fx: 912.985107421875
+  fy: 911.439453125
+  cx: 641.859619140625
+  cy: 351.2411193847656
+
+  k1: 0
+  k2: 0
+  k3: 0
+  p1: 0
+  p2: 0
+
+  fps: 30.0
+  cols: 1280
+  rows: 720
+
+  # baseline is 50 mm
+  focal_x_baseline: 36.3554139709
+  depth_threshold: 40.0
+
+  color_order: "RGBA"
+  # ^ Useless
+
+Preprocessing:
+  # ref: https://github.com/IntelRealSense/realsense-ros/issues/41
+  depthmap_factor: 1000.0
+
+
+Feature:
+  max_num_keypoints: 1500
+  scale_factor: 1.2
+  num_levels: 8
+  ini_fast_threshold: 20
+  min_fast_threshold: 7
+
+
+Mapping:
+  baseline_dist_thr_ratio: 0.02
+
+
+Initializer:
+  num_min_triangulated_pts: 400
+
+
+PangolinViewer:
+  keyframe_size: 0.06
+  keyframe_line_width: 1
+  graph_line_width: 1
+  point_size: 2
+  camera_size: 0.07
+  camera_line_width: 2
+  viewpoint_x: 0
+  viewpoint_y: -20
+  viewpoint_z: -0.1
+  viewpoint_f: 2800
