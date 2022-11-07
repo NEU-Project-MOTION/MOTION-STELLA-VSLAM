@@ -6,13 +6,11 @@
 # height: 800
 # width: 848
 # distortion_model: equidistant  
-
 # d:
 # - -0.009902364574372768
 # - 0.044772669672966
 # - -0.04212160035967827
 # - 0.0076868548057973385
-
 # k: 
 # - 286.4646911621094    (fx) 
 # - 0.0
@@ -23,13 +21,10 @@
 # - 0.0
 # - 0.0
 # - 1.0
-
 # r:
 # - <Identity rotation matrix>
 # p:                    (parameters for non monocular stuff)
 # - <Repetative info>
-
-# LUMIX fisheye model for 1K setting
 
 #==============#
 # Camera Model #
@@ -37,7 +32,7 @@
 
 Camera:
   name: "RealSense T265 Monocular"
-  setup: "monocoluar"
+  setup: "monocular"
   model: "fisheye"
 
   # Ours
