@@ -1,0 +1,113 @@
+# Based off of https://github.com/stella-cv/stella_vslam_ros/issues/37
+# Parameters documentation: https://stella-cv.readthedocs.io/en/latest/parameters.html
+# Camera info topic meanings: http://docs.ros.org/en/melodic/api/sensor_msgs/html/msg/CameraInfo.html
+
+# Default color camer info message from realsense:
+# height: 800
+# width: 848
+# distortion_model: equidistant  
+
+# d:
+# - -0.009902364574372768
+# - 0.044772669672966
+# - -0.04212160035967827
+# - 0.0076868548057973385
+
+# k: 
+# - 286.4646911621094    (fx) 
+# - 0.0
+# - 416.5069885253906    (cx)
+# - 0.0
+# - 286.3681945800781    (fy)
+# - 390.73529052734375   (cy)
+# - 0.0
+# - 0.0
+# - 1.0
+
+# r:
+# - <Identity rotation matrix>
+# p:                    (parameters for non monocular stuff)
+# - <Repetative info>
+
+# LUMIX fisheye model for 1K setting
+
+#==============#
+# Camera Model #
+#==============#
+
+Camera:
+  name: "RealSense T265 Stereo"
+  setup: "stereo"
+  model: "fisheye"
+
+  # Ours
+  fx: 286.4646911621094
+  fy: 286.3681945800781 
+  cx: 416.5069885253906
+  cy: 390.73529052734375
+
+  # Ours 
+  k1: -0.009902364574372768
+  k2: -0.044772669672966
+  k3: -0.04212160035967827
+  k4: -0.0076868548057973385
+
+  # Stuff for stereo
+  focal_x_baseline: 64
+  depth_threshold: 40
+
+  # Theirs
+  # fx: 441.730011169
+  # fy: 442.520822476
+  # cx: 480.35667528
+  # cy: 275.490228646
+
+  # Theirs
+  # k1: -3.068701296607466433e-02
+  # k2: -3.343454364086094217e-03
+  # k3: -2.881735840896060968e-03
+  # k4: -5.917420310474077278e-04
+
+
+
+  fps: 30.0
+  cols: 848 
+  rows: 800
+
+  color_order: "Gray"
+
+#=====================#
+# Tracking Parameters #
+#=====================#
+
+Preprocessing:
+  min_size: 800
+
+#================#
+# orb parameters #
+#================#
+
+Feature:
+  name: "default ORB feature extraction setting"
+  max_num_keypoints: 5000 
+  scale_factor: 1.2
+  num_levels: 8
+  ini_fast_threshold: 20
+  min_fast_threshold: 7
+
+#========================#
+# Initializer Parameters #
+#========================#
+
+Initializer:
+  scaling_factor: 5.0
+
+#====================#
+# Mapping Parameters #
+#====================#
+
+Mapping:
+  baseline_dist_thr_ratio: 0.02
+  redundant_obs_ratio_thr: 0.9
+  num_covisibilities_for_landmark_generation: 20
+  num_covisibilities_for_landmark_fusion: 20

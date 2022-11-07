@@ -1,4 +1,4 @@
-map.msg
+*.msg
 
 stella_build/
 build/

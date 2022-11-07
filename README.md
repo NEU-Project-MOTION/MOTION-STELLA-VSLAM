@@ -1,10 +1,10 @@
 # MOTION-STELLA-VSLAM
 
 ## Repository Setup
-Run ```sudo setup.sh``` FROM THE SCRIPTS FOLDER (otherwise it will probably break your machine in ways unimaginable :( I wouldnt risk it)
+Run ```./setup.sh```
 
 ## Running SLAM with Realsense
-Run ```source ${PWD}/MOTION-STELLA-VSLAM/install/setup.bash```
+Run ```source MOTION-STELLA-VSLAM/install/setup.bash```
 
 ## Open up 3 terminals
 - Terminal 1: ```ros2 launch realsense2_camera rs_launch.py```
