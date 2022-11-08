@@ -23,7 +23,7 @@ def generate_launch_description():
             executable="realsense2_camera_node",
             output="screen",
             namespace="camera",
-            parameters=["device_type:=d435"],
+            parameters=[{"device_type": "t265"}],
         ),
     ])
  

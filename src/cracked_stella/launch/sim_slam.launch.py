@@ -10,22 +10,13 @@ def generate_launch_description():
             package='stella_vslam_ros',
             executable='run_slam',
             name='stella_slam',
-            arguments=['--config', f'{pkg_path}/camera_config/fancy_realsense_stereo.yaml', 
+            arguments=['--config', f'{pkg_path}/camera_config/sim_rgbd.yaml', 
                       '--map-db-out', f'/tmp/stella_map.msg',
                       '--vocab', f'{pkg_path}/orb_vocab.fbow'],
+            parameters=[{'publish_tf': False}],
             remappings=[
-                ('/camera/left/image_raw', '/camera/fisheye1/image_raw'),
-                ('/camera/right/image_raw', '/camera/fisheye2/image_raw'),
+                ('/camera/image_raw', '/drone/realsense/color/image_raw'),
             ]
         ),
-        # Launch realsense T265 node
-        Node(
-            package="realsense2_camera",
-            executable="realsense2_camera_node",
-            output="screen",
-            namespace="camera",
-            parameters=[{"device_type": "t265"}],
-        ),
-        
     ])
  
