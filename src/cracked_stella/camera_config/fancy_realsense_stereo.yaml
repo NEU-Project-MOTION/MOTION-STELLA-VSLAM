@@ -89,7 +89,7 @@ Preprocessing:
 
 Feature:
   name: "default ORB feature extraction setting"
-  max_num_keypoints: 5000 
+  max_num_keypoints: 750 
   scale_factor: 1.2
   num_levels: 8
   ini_fast_threshold: 20
